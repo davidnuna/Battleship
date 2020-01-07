@@ -114,7 +114,6 @@ class console_ui(object):
         
     def run(self):
         self.__game_controller.place_random_battleships()
-        self.ui_show_computer_maps()
         print("Welcome to the Battleship game!")
         print("Let's start by placing your battleships! You can place exactly 3 ships, one of each from the following:")
         print("A battleship (4 squares)")
