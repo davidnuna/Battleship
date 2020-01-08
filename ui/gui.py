@@ -154,6 +154,7 @@ class gui:
                     self.__status_bar_left["text"] =  str("Placing the battleships...")
                     self.__status_bar_right["text"] = str("Waiting for the battleships to be placed... ")
                     self.start_game()
+                    return
             square_hit = False
             square_hit_and_coordinates = self.__game_controller.computer_shoot_square()
             square_hit = square_hit_and_coordinates[0]
