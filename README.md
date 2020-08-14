@@ -1,6 +1,6 @@
 # Battleship AI
 
-Battleship game vs an AI, made with python, using the tkinter framework for the GUI version. The AI uses a probability map ( checks the most likely spot after each move, based on the current table evolution ) for the hunting mode and a simple stack algorithm that utilizes a stack for the targeting mode. The computer player places his ships randomly each turn. 
+Battleship game vs an AI, made with python, using the tkinter framework for the GUI version. The AI uses a probability map ( checks the most likely spot after each move, based on the current table evolution ) for the hunting mode and a simple stack algorithm that utilizes a stack for the targeting mode. The computer player places his ships randomly each time. 
 
 A web version created with Flask is available here: https://github.com/neutralove/Flask-Battleship.
 
