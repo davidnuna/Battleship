@@ -4,11 +4,11 @@ Battleship game vs an AI, made with python, using the tkinter framework for the 
 
 A web version created with Flask is available here: https://github.com/neutralove/Flask-Battleship.
 
-# Game Rules:
+# Game Rules
 
 The game is played on a 8x8 grid, following the well-known paper game "battleship". The first grid is yours, whilst the second one is the enemy's! There are 2 phases covering the development of the game: The placing-phase and the attack-phase: 
 
-## The Placing-Phase:
+## The Placing-Phase
 
 You must place exactly 3 unique battleships (horizontally or vertically): a Destroyer (2 squares), a Cruiser (3 squares) and a Battleship (4 squares).
 
@@ -16,7 +16,7 @@ In order to place any of these ships, simply click on your desired squares and a
 
 After you're done placing all your ships, the attack phase begins.
 
-## The Attack-Phase:
+## The Attack-Phase
 
 The goal is simple: destroy the enemy's fleet before he sinks yours. All you have to do is click the square on the enemy's grid where you reckon an enemy battleship might be located, whilst the enemy will do the same. If you manage to hit a battleship, the square will turn red, otherwise it will turn white.
 
